@@ -1,0 +1,56 @@
+/* Обнулення відступів для гарного вигляду */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+h2:hover {
+    color: #007bff;
+    transition: color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Обов'язкові стилі для карти */
+#map {
+    width: 100%;
+    height: 500px; /* Висота обов'язкова! */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+#map:hover {
+    border: 2px solid #007bff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: border 0.3s ease;
+}
+.satellite-toggle {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    display: inline-flex;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 0 1px 6px rgb(129, 118, 118);
+}
+
+a {
+    color: rgb(255, 255, 255); /* Наслідувати колір від батьківського елемента */
+    text-decoration: none; /* Видалити підкреслення */
+}
+#satellite-toggle:hover {
+    background-color: #0056b3;
+    transition: background-color 1s ease;
+    box-shadow: 0 6px 12px rgba(236, 216, 216, 0);
+}
